@@ -6,5 +6,5 @@ use Livewire\Component;
 
 class Home extends Component
 {
-    public string $title = "Hola Chulada";
+    public string $title = "Hola Livewire";
 }
