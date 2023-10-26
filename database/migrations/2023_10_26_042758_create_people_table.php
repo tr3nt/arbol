@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name', 50);
             $table->string('middlename', 50);
             $table->string('lastname', 50);
+            $table->tinyInteger('gender');
             $table->string('email', 50)->unique()->nullable();
             $table->string('phone', 20)->nullable();
             $table->date('birth_date')->nullable();

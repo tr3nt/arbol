@@ -12,9 +12,7 @@
     <body>
 
         <main>
-            <div class="container">
-                {{ $slot }}
-            </div>
+            {{ $slot }}
         </main>
 
         @vite('resources/js/app.js')

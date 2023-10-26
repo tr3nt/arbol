@@ -4,10 +4,9 @@ namespace App\Models;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Model;
 
 class Person extends Model
 {
@@ -17,6 +16,7 @@ class Person extends Model
         'name',
         'middlename',
         'lastname',
+        'gender',
         'email',
         'phone',
         'birth_date',
